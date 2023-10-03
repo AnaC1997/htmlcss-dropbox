@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+.containerHeader {
+    background-color: rgb(228, 55, 55);
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.lista-header {
+    display: flex;
+    align-items: center;
+    margin: 16px;
+
+}
+
+.img-logo {
+    height: 50px;
+    width: 150px;
+}
+
+.lista-left,
+.lista-right {
+    display: flex;
+    gap: 20px
+}
+
+.lista-right {
+    margin-left: auto;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+button {
+    margin-left: 10px;
+}
+
+/*Main*/
+
+.containerElement {
+    background: #B4D0E7;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+
+}
+
+.element1 {
+    width: 35%;
+    height: 400px;
+    background-color: aqua;
+}
+
+.element2 {
+    width: 35%;
+    height: 400px;
+    background-color: rgb(210, 232, 232);
+
+}
+
+/*Item2*/
+
+.containerElement2 {
+    background: #aee284;
+
+
+}
+
+.campo-input {
+    display: flex;
+    justify-content: start;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.column1 {
+    width: 30%;
+    height: 500px;
+    background-color: blue;
+
+
+}
+
+.column2 {
+    width: 30%;
+    height: 500px;
+    background-color: rgb(230, 197, 79);
+
+
+}
+
+.column3 {
+    width: 30%;
+    height: 500px;
+    background-color: rgb(225, 43, 19);
+}
+
+/*Item3*/
+
+.item3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.team {
+    width: 90%;
+    height: 200px;
+    background: rebeccapurple;
+
+}
+
+/*Item4*/
+
+.item4 {
+    display: flex;
+    justify-content: center;
+}
+
+.img-item4 {
+    width: 60%;
+    height: 500px;
+    background-color: bisque;
+}
+
+.p-item4 {
+    width: 30%;
+    height: 500px;
+    background-color: beige;
+}
+
+/*Item5*/
+
+.item5 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.column1-item5 {
+    width: 30%;
+    height: 300px;
+    background-color: aliceblue;
+}
+
+.column2-item5 {
+    width: 30%;
+    height: 300px;
+    background-color: rgb(95, 168, 231);
+}
+
+.column3-item5 {
+    width: 30%;
+    height: 300px;
+    background-color: rgb(175, 220, 113);
+}
+
+.column4-item5 {
+    width: 30%;
+    height: 300px;
+    background-color: rgb(175, 220, 113);
+}
+
+.column5-item5 {
+    width: 30%;
+    height: 300px;
+    background-color: rgb(228, 145, 62);
+}
+
+.column6-item5 {
+    width: 30%;
+    height: 300px;
+    background-color: aliceblue;
+}
+
+/*Item6*/
+.item6 {
+    width: 90%;
+    height: 150px;
+    background-color: azure;
+}
+
+/*Item7*/
+.containerElement7 {}
+
+.quadrato-element7 {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+
+
+
+}
+
+.quadrato1 {
+    width: 16.66%;
+    height: 400px;
+   
+   
+}
+
+.img1 {
+    height: 200px;
+    background: #A2D39B; 
+    display: flex;
+    align-items: center; 
+    align-content: center;  
+
+}
+
+.designit{
+    width: 200px;
+    height: 50px;
+}
+
+
+.img2 {
+    height: 200px;
+    background: #0093CD;
+    display: flex;
+    align-items: center;
+    align-content: center; 
+    
+}
+
+.florida{
+    width: 200px;
+    height: 50px;
+    padding: 10px ;
+    
+   
+}
+
+.quadrato2 {
+    width: 16.66%;
+    height: 400px;
+
+}
+
+.img3 {
+    height: 200px;
+    background: #62092C;
+
+
+}
+
+.img4 {
+    height: 200px;
+    background: #FF1B1C;
+
+}
+
+
+.quadrato3 {
+    width: 33.33%;
+    height: 400px;
+    background-color: #38a742;
+    overflow: scroll;
+
+}
+
+.quadrato4 {
+    width: 15%;
+    height: 200px;
+    background-color: #ca3d92;
+
+}
+
+.img5 {
+    height: 200px;
+    background: #D4011E;
+
+}
+
+
+.quadrato5 {
+    width: 15%;
+    height: 200px;
+    background-color: #4226a8;
+
+
+
+}
+
+.quadrato6 {
+    width: 16.66%;
+    height: 200px;
+    background-color: #695b9c;
+    flex-grow: 1;
+
+
+
+}
+
+.quadrato7 {
+    width: 15%;
+    height: 200px;
+    background-color: #a6c360;
+    flex-grow: 1;
+
+}
+
+.quadrato8 {
+    width: 16.66%;
+    height: 200px;
+    background-color: #cccf28;
+    flex-grow: 1;
+
+}
+
+.quadrato9 {
+    width: 16.66%;
+    height: 200px;
+    background-color: #0d7a2f;
+    flex-grow: 1;
+
+}
+
+
+
+/*generici*/
+.flex {
+    display: flex;
+    justify-content: center;
+}
