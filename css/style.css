@@ -424,6 +424,12 @@ a, .scopri{
     width: 90%;
     height: 150px;
     padding-left: 290px;
+    padding-right: 290px;
+}
+
+.row1{
+    display: flex;
+    justify-content:space-between;
 }
 
 /*Item9*/
