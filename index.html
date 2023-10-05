@@ -7,6 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 </head>
 
 <body>
@@ -16,7 +19,7 @@
             <nav class="lista-header">
 
                 <ul class="lista-left">
-                    <li><a href=""><img class="img-logo" src="img/logo-small.png" alt=""></li></a>
+                    <li><a><img class="img-logo" src="img/logo-small.png" alt="logo"></li></a>
                     <li><a class="black" href="#">Perchè Dropbox</a></li>
                     <li><a class="black" href="#">Funzioni</a></li>
                     <li><a class="black" href="#">Piani e Prezzi</a></li>
@@ -29,7 +32,7 @@
                     <li><a class="black" href="#">Contatta l'ufficio vendite</a></li>
                     <li><a class="black" href="#">Accedi</a></li>
                 </ul>
-                <button class="btn btn-blue"> <a href="">Inizia </a></button>
+                <button class="btn btn-blue btn-inizia"> <a class="btn-inizia" href="#">Inizia </a></button>
             </nav>
         </div>
 
@@ -94,7 +97,7 @@
                             <div class="p16">
                                 <button class="btn-blue"> Prova gratis per 30 giorni</button>
                             </div>
-                            <nav class="p16">oppure <a href="#"> acquista ora</a></nav>
+                            <nav class="p16">oppure <a class="scopri" href="#"> acquista ora</a></nav>
                             <div class="p16">
                                 <hr class="hr-size">
                             </div>
@@ -123,7 +126,7 @@
                             <div class="p16">
                                 <button class="btn-blue"> Proba gratis per 30 giorni</button>
                             </div>
-                            <nav class="p16">oppure <a href="#"> acquista ora</a></nav>
+                            <nav class="p16">oppure <a class="scopri" href="#"> acquista ora</a></nav>
                             <div class="p16">
                                 <hr class="hr-size">
                             </div>
@@ -164,7 +167,7 @@
                             <div class="p16">
                                 <button class="btn-blue"> Contattaci</button>
                             </div>
-                            <nav class="p16">oppure <a href="#"> acquista ora</a></nav>
+                            <nav class="p16">oppure <a class="scopri" href="#"> acquista ora</a></nav>
                             <div class="p16">
                                 <hr class="hr-size">
                             </div>
@@ -190,14 +193,16 @@
 
             <!--Item 3-->
 
-            <div class="containerElement3 pt32">
+            <div class="containerElement3 pt48">
                 <div class="item3">
                     <div class="team border2">
                         <li class="teaml p16 "><i class="fas fa-users"></i> Team</li>
-                        <p class="p16"> Enterprise</p>
-                        <p class="p16"> Contatta l'ufficio vendite per i prezzi </p>
-                        <div class="p16">
-                            <button class="btn-blue"> Contatta l'ufficio vendite</button>
+                        <p class="p16"> <strong>Enterprise</strong></p>
+                        <div class="contatta-item3">
+                            <p class="p16"> <strong>Contatta l'ufficio vendite per i prezzi </strong></p>
+                            <div class="p16">
+                                <button class="btn-blue"> Contatta l'ufficio vendite</button>
+                            </div>
                         </div>
 
                         <p class="p16">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dicta tenetur
@@ -209,7 +214,7 @@
 
             <!--Item 4-->
 
-            <div class="containerElement4 pt48">
+            <div class="containerElement4 pt100 ">
                 <div class="item4">
                     <div class="img-item4">
                         <img class="img-patner" src="img/partner.png" alt="">
@@ -231,7 +236,7 @@
 
             <!--Item 5-->
 
-            <div class="containerElement5 pt48 ">
+            <div class="containerElement5 pt48">
                 <div>
                     <h2 class="titulo-element5 ">Esegui più operazioni con Dropbox business</h2>
                 </div>
@@ -284,10 +289,10 @@
 
             <!--Item 6-->
 
-            <div class="containerElemnt6 flex">
+            <div class="containerElemnt6 flex flex padding-cont-big">
                 <div class="item6">
                     <h1 class="p16"> Più di 500.000 tem utilizzano Dropbox Business</h1>
-                    <a class="p16" href="#">Scopri di piú sui nostri clienti</a>
+                    <a class="p16 scopri" href="#">Scopri di piú sui nostri clienti</a>
                 </div>
             </div>
 
@@ -345,9 +350,10 @@
             </div>
 
             <!--Item 8-->
-            <div class="containerElemt8 flex">
+            <div class="containerElemt8 flex padding-cont-big">
                 <div class="item8">
-                    <h1 class="p16 testo-item8">Porta Dropbox Business <button class="btn-blue ">Inizia la tua prova
+                    <h1 class="testo-item8 violla">Porta Dropbox Business <button class="btn-blue black b-white">Inizia
+                            la tua prova
                             gratuita</button> <br>nella tua azienda.</h1>
                 </div>
             </div>
@@ -355,37 +361,48 @@
             <!--Item 9-->
             <div class="containerItem9 flex">
                 <div class="faq item9">
-                    <h2 class="pt16">Domande Frequenti</h2>
+                    <h2 class="padding-cont-big">Domande Frequenti</h2>
                     <div class="pt16">
                         <hr>
                     </div>
                     <ul>
-                        <li class="question pt16"> <a href="">Qual è la differenza tra Dropbox Business Standar e
-                                Dropbox
-                                Business Advanced?</a></li>
-                        <li class="risposte pt16">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae earum
-                            dolorem commodi sequi molestias hic voluptas quis ipsa? Velit ut, nam vitae doloribus
-                            dolorem facilis alias aliquam eaque veniam aut.</li>
+                        <li class="faq-item1">
+                            <p class="question pt16"><strong>Qual è la differenza tra Dropbox Business Standard e
+                                    Dropbox Business Advanced?</strong></p> <hr>
+                            <p class="answer pt16">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae earum
+                                dolorem commodi sequi molestias hic voluptas quis ipsa? Velit ut, nam vitae doloribus
+                                dolorem facilis alias aliquam eaque veniam aut.</p>
+                        </li>
                     </ul>
-                    <hr>
                     <ul>
-                        <li class="question pt16"> <a href="">Qual è la differenza tra Dropbox Business Standar e
-                                Dropbox
-                                Business Advanced?</a></li>
-                        <li class="risposte pt16">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae earum
-                            dolorem commodi sequi molestias hic voluptas quis ipsa? Velit ut, nam vitae doloribus
-                            dolorem facilis alias aliquam eaque veniam aut.</li>
+                        <li class="faq-item2">
+                            <p class="question pt16"><strong>Qual è la differenza tra Dropbox Business Standard e
+                                    Dropbox Business Advanced?</strong></p>
+                                    <hr>
+                            <p class="answer pt16">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae earum
+                                dolorem commodi sequi molestias hic voluptas quis ipsa? Velit ut, nam vitae doloribus
+                                dolorem facilis alias aliquam eaque veniam aut.</p>
+                        </li>
                     </ul>
-                    <hr>
                     <ul>
-                        <li class="question pt16"> <a href="">Qual è la differenza tra Dropbox Business Standar e
-                                Dropbox
-                                Business Advanced?</a></li>
-                        <li class="risposte pt16">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae earum
-                            dolorem commodi sequi molestias hic voluptas quis ipsa? Velit ut, nam vitae doloribus
-                            dolorem facilis alias aliquam eaque veniam aut.</li>
+                        <li class="faq-item1">
+                            <p class="question pt16"><strong>Qual è la differenza tra Dropbox Business Standard e
+                                    Dropbox Business Advanced?</strong></p> <hr>
+                            <p class="answer pt16">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae earum
+                                dolorem commodi sequi molestias hic voluptas quis ipsa? Velit ut, nam vitae doloribus
+                                dolorem facilis alias aliquam eaque veniam aut.</p>
+                        </li>
                     </ul>
-                    <hr>
+                    <ul>
+                        <li class="faq-item2">
+                            <p class="question pt16"><strong>Qual è la differenza tra Dropbox Business Standard e
+                                    Dropbox Business Advanced?</strong></p> <hr>
+                            <p class="answer pt16">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae earum
+                                dolorem commodi sequi molestias hic voluptas quis ipsa? Velit ut, nam vitae doloribus
+                                dolorem facilis alias aliquam eaque veniam aut.</p>
+                        </li>
+                    </ul>
+
                 </div>
             </div>
     </main>
@@ -407,9 +424,10 @@
                     <li><a class="item-f " href="#">Soluzioni</a></li>
                     <li><a class="item-f " href="#">Fai di più che archiviare</a></li>
                 </ul>
-                <div class="hr">
+                <div class="hr pb32">
                     <hr>
                 </div>
+                <span class="white"><i class="fas fa-globe " style="color: white;"></i> Italiano </span>
             </nav>
 
             <nav class="prodotti itemf">
