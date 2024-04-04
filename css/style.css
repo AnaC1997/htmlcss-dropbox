@@ -91,17 +91,17 @@ a:hover{
 }
 
 .element1 {
-    width: 50%;
+    width: 30%;
     max-height: 300px;
 }
 
 .element2 {
-    width: 30%;
+    width: 50%;
     height: 250px;
 }
 
 .jumbo {
-    width: 130%;
+    width: 700px;
 }
 
 
@@ -227,15 +227,11 @@ a:hover{
 
 
 /*Item6*/
-.item6 {
-    width: 90%;
-    height: 150px;
-    padding-left: 290px;
-}
 
-a, .scopri{
+.scopri{
     text-decoration:underline;
-}
+    
+   }
 
 
 /*Item7*/
@@ -388,12 +384,6 @@ a, .scopri{
 
 .colorCeleste {
     background-color: #B4D0E8;
-}
-
-.item8 {
-    width: 90%;
-    padding-left: 290px;
-    padding-right: 290px;
 }
 
 .row1{
